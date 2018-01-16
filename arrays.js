@@ -27,9 +27,10 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 var array = destructivelyAddElementToEndOfArray(array, element);
 
-var arrayTwo = [1, 2, 3, 4, 5]
 function accessElementInArray(array, index) {
   return array[index];
 }
 
-
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  return array.shift();
+}
